@@ -85,8 +85,8 @@ ___
 ## Post-work
 
 * Ping-pong
-  * difficult version - exercises/03a_ping_pong.cpp
-  * easier version - exercises/03b_ping_pong.cpp
+  * difficult version - [homework/ping_pong.cpp](../homework/ping_pong.cpp)
+  * easier version - [homework/ping_pong_easier.cpp](../homework/ping_pong_easier.cpp)
 
 ___
 
