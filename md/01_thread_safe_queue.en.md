@@ -141,5 +141,5 @@ void saveToFile(StringQueue & sq) {
 * <!-- .element: class="fragment fade-in" --> Another name for this problem is "busy waiting"
 * <!-- .element: class="fragment fade-in" --> The problem can be solved by the condition variable
 
-<img data-src="../img/aktywne_czekanie.png" alt="aktywne_czekanie" class="plain">
+<img src="../img/aktywne_czekanie.png" alt="aktywne_czekanie" class="plain">
 <!-- .element: class="fragment fade-in" -->
