@@ -143,3 +143,28 @@ If you got stuck:
 * <!-- .element: class="fragment fade-in" --> Use an additional <code>std::atomic<bool></code> variable which will tell all threads to end, when the required conditions are met
 * <!-- .element: class="fragment fade-in" --> Ping and pong threads should be using <code>wait()</code> to check if it's their turn to work. Use an additional variable that will be used in the predicate passed to <code>wait()</code>
 * <!-- .element: class="fragment fade-in" --> The pong thread should end the program after reaching the repetition limit
+
+___
+
+## Repo on GitHub
+
+<div class="multicolumn">
+
+<div style="width: 40%;">
+
+<img width="350" src="../img/qr-github.png" alt="https://github.com/coders-school/condition-variable" class="plain">
+
+</div>
+
+<div>
+
+[https://github.com/coders-school/condition-variable](https://github.com/coders-school/condition-variable)
+
+* Download a PDF
+* Browse presentation content
+* Find code examples
+* Do the homework!
+
+</div>
+
+</div>

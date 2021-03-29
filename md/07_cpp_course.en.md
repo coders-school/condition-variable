@@ -8,8 +8,10 @@
 
 ## [https://coders.school](https://coders.school)
 
+### Start kursu w połowie kwietnia!
+
 ___
 
-<img width="400" src="../img/qr.png">
+<img width="400" src="../img/qr-coders.png">
 
 ## [https://coders.school](https://coders.school)
