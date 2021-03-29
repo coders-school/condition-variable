@@ -57,7 +57,7 @@ ___
 
 <div style="width: 50%; font-size: .8em;">
 
-```cpp
+```cpp [6,13,17-18]
 // includes
 template <typename T>
 class WaitQueue {
@@ -87,7 +87,7 @@ public:
 
 <div style="width: 50%; font-size: .8em;">
 
-```cpp
+```cpp [9-13]
 using StringQueue = WaitQueue<string>;
 
 void provideData(StringQueue & sq) {

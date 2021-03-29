@@ -87,7 +87,7 @@ ___
 
 ## Solution: thread-safe queue
 
-```cpp []
+```cpp [4-5,9,13,19]
 template <typename T>
 class ThreadsafeQueue {
     deque<T> queue_;
@@ -126,7 +126,7 @@ ___
 
 ## Spinlock
 
-```cpp []
+```cpp [4]
 void saveToFile(StringQueue & sq) {
     ofstream file("/tmp/sth.txt");
     while (file) {
