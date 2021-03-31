@@ -40,13 +40,13 @@ public:
 
 <div style="width: 40%; padding: 20px; font-size: .9em;">
 
-* <!-- .element: class="fragment fade-in" --> In <code>exercises/01_threadsafe_queue.cpp</code> there is a FIFO queue implementation
+* <!-- .element: class="fragment fade-in" --> In <code>examples/01_threadsafe_queue.cpp</code> there is a FIFO queue implementation
+* <!-- .element: class="fragment fade-in" --> Prevent queue operations from being accessed by multiple threads at the same time (make it thread-safe 🙂)
 * <!-- .element: class="fragment fade-in" --> Fix the <code>textProducer</code> thread to generate correct strings:
   * <!-- .element: class="fragment fade-in" --> This is random text number 0
   * <!-- .element: class="fragment fade-in" --> This is random text number 1
   * <!-- .element: class="fragment fade-in" --> …
   * <!-- .element: class="fragment fade-in" --> This is random text number n
-* <!-- .element: class="fragment fade-in" --> Prevent queue operations from being accessed by multiple threads at the same time (make it thread-safe 🙂)
 * <!-- .element: class="fragment fade-in" --> What kind of problem can you see?
 
 </div>

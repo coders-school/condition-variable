@@ -110,7 +110,7 @@ int main() {
 1. there may be an Undefined Behavior in this code
 2. the output is guaranteed to always be <code>0123456789</code>
 3. <code>v</code> is always an empty vector at the end of this program
-4. if some producers threads started before some consumers, we would have a deadlock because of lost notifications
+4. if some producers threads started before some consumers, we could have a deadlock because of lost notifications
 5. this code can be improved by providing a predicate to <code>wait()</code> to disallow getting elements when the vector is empty
 6. a change from <code>notify_all()</code> to <code>notify_one()</code> + <code>wait()</code> with predicate will guarantee that each consumer thread will receive a different number
 

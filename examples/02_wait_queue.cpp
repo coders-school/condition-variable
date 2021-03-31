@@ -14,17 +14,17 @@ class WaitQueue {
 
 public:
     void push(const T & element) {
-        Lock l(m_);
+        Lock lock(m_);
         queue_.push_front(element);
     }
     T pop() {
-        Lock l(m_);
+        Lock lock(m_);
         auto top = queue_.back();
         queue_.pop_back();
         return top;
     }
     bool empty() const {
-        Lock l(m_);
+        Lock lock(m_);
         return queue_.empty();
     }
 };
